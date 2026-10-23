@@ -5,8 +5,8 @@ echo "This script will create EC2 instances for roboshop application and update 
 
 ami_id="ami-0055977a6e828a4f4"
 instance_type="t3.micro"
-domain_name="daws92s.store"
-hosted_zone_id="Z01595761DU8O4AX48D6A"
+domain_name="dawsproject.store"
+hosted_zone_id="Z0794218338NQHMWA5GDO"
 
 for instance in $@
 do
